@@ -23,7 +23,7 @@
 			position:fixed;
 			top:0px;
 			z-index:999;
-}
+			}
 			.nav:hover{
 				transform-style:preserve-3d;
 				perspective:100px;
