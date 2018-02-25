@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	list-style:none;
+	outline:none;
+	white-space:normal;}
+	.control{
+		width:90vw;
+		height:100%;
+		
+		margin:100px auto;
+		
+		}
+		.nav{
+			width:100vw;
+			height:70px;
+			background:#fff;
+			border-bottom:#ccc 5px solid;
+			position:relative;
+			position:fixed;
+			top:0px;}
+			.nav:hover{
+				transform-style:preserve-3d;
+				perspective:100px;
+				border-bottom:#F00 5px solid;
+				
+				transition:all linear .9s;
+				}
+				.nav div{
+					width:100%;
+					height:100%;
+					text-align:center;
+			}
+			.nav div span{
+				
+				color:#000;}
+				.nav div span:first-child{
+					font-size:36px;
+					font-weight:bolder;
+					position:absolute;
+					top:20%;
+					left:10%;
+			}
+			.nav div span:nth-child(4){
+				padding:20px;
+				font-size:18px;
+				border:#999 2px solid;
+				position:absolute;
+				right:40px;
+				
+				}
+				
+				.nav div a span:nth-child(1){
+					font-size:18px;
+					font-weight:bolder;
+					position:absolute;
+					margin:0px 20px;
+					padding-left:40px;
+					border-left:#666 2px solid;
+					top:25%;
+					left:30%;
+					
+					
+					}
+					.nav div a:nth-child(2) span{
+					font-size:18px;
+					font-weight:bolder;
+					position:absolute;
+					margin:0px 20px;
+					padding-left:40px;
+					border-left:#666 2px solid;
+					top:25%;
+					left:20%;
+					
+					}
+				.nav div span:nth-child(4):hover{
+				border:#cc0000 2px solid;
+				transition:all linear .9s;
+				cursor:pointer;
+				}
+				.login{
+					top:20%;
+	border-radius: 10px;
+	padding: 20px 20px;
+	margin: 0 auto;
+	position:fixed;
+	
+	left:-20%;
+	background:rgba(153,153,153,0.7);
+	overflow:hidden;
+	width:0px;
+	transition:all linear 1s;
+	z-index:9;
+	
+					}
+					
+					.login form input{
+						margin: 0 auto;
+	display: block;
+	width: 500px;
+	height: 50px;
+	border-radius: 19px;
+	outline: none;
+	border: solid #00F 1px;
+	margin-top: 10px;}
+	.ttp{
+		width:100%-20px;
+		height:380px;
+		padding:10px;
+			padding-top:20px;
+		}
+
+		.ttp div:hover{
+			
+		
+			transform:scale(1.2);
+			position:relative;
+			z-index:2;
+		transition:all linear .9s;}
+		.ttp div{width:542px;}
+	.ttpl{
+		
+		float:left;
+		
+		height:300px;
+		background:url(../img/buy2.jpg) no-repeat 0 50%;
+		
+		
+		
+		}
+		.ttpr{
+		
+		float:right;
+		
+		height:300px;
+		background:url(../img/buy.jpg) no-repeat 0 50%;
+		background-size:cover;
+			}
+		p{font-size:24px;
+		font-weight:bold;
+		color:#999;
+		border-bottom:#cc0000 2px solid;
+		}
+		.goods ul li{
+			display:list-item;
+			margin-right:16px;
+			float:left;
+			margin-top:16px;
+			background:#f9f9f9;
+			text-align:center;
+			position:relative;
+		border:2px #999999 solid;
+			}
+			.goods ul li a{
+				position:absolute;
+				bottom:0px;
+				padding:10px 0px 10px 0px;
+				background:#CCC;
+				width:100%;
+				left:0px;
+				
+				
+				opacity:0;
+				
+			}
+			.goods ul li:hover a{
+				color:#000;
+				
+				opacity:1;
+				transition:all ease-in .9s;}
+				.goods ul li img{
+					width:263px;
+					height:263px;
+					display:block;
+		
+			}
+		.goods ul li:hover{
+		border:2px #cc0000 solid;
+			
+			}
