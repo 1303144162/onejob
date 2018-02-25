@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="js/js.js"></script>
+
+<title>07170216 李宗睿</title>
+</head>
+
+<body>
+<div class="login">
+<form>
+<input type="text" placeholder="账号"/>
+<input type="password" placeholder="密码" />
+<input type="submit" value="登录"/>
+<input type="reset" value="取消" onClick="hiddent()"/>
+</form>
+</div>
+
+<div id="topop" style="position:fixed" onClick="topop()">展开</div>	
+<div class="top">
+<ul>
+<li id="pro"><a href="#mypro">关于我们</a></li>
+<li id="phon"><a href="#tel">联系方式</a></li>
+<li class="lo" onClick="login()"><a href="#login">登录/注册</a></li>
+<div style="clear:both;	"></div>
+</ul>
+
+</div>
+<div class="nav">
+<div class="video"> 
+<audio src="music/1.mp3" controls loop id="music">
+
+</audio>
+</div>
+<ul>
+<li><a><span>首页</span></a></li>
+<li><a href="detail.html#t2"><span>MUSIC</span></a></li>
+<li><a href="shop.html"><span>商城</span></a></li>
+    <li><a><span>歌单</span></a>
+    <ul class="navtwo">
+    <li><a><span>我喜欢的歌单</span></a>
+    <ul class="tr">
+    	<li style="margin-left:0px;" onClick="music('2')">still</li>
+      <li onClick="music('3')">Ø</li>
+        <li onClick="music('1')">天门</li>
+        </ul>
+    </li>
+</ul>
+</li>
+<div class="search">
+<form method="get" action="http://baidu.com/s" target="new">
+<input type="text"  class="text" name="wd" placeholder="搜索内容"/>
+<input type="submit" value="搜索"  class="bt"/>
+</form>
+</div>
+<div style="clear:both;"></div>
+
+</ul>
+
+</div>
+<div id="control">
+
+<div id="mypro"><a href="#"><p style="cursor:pointer; position:absolute; right:0px; font-size:20px; font-weight:bold;">X</p></a>&euro; 版权属于07170216 李宗睿 </div>
+<div id="tel">
+<a href="#"><p style="cursor:pointer; position:absolute; right:0px; font-size:20px; font-weight:bold;">X</p></a>
+13425413541</div>
+
+</div>
+<div class="box">
+
+<div class="rightbox" onClick="color()">
+
+</div>
+<div class="rol">OPEN:3</div>	
+</div>
+
+
+</body>
+</html>
