@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>音乐综合</title>
+<link rel="stylesheet" type="text/css" href="css/css.css"/>
+
+<script type="text/javascript" src="js/mh.js"></script>
+</head>
+
+<body>
+<canvas id="canvas"></canvas>
+<div class="login">
+<form>
+<input type="text" placeholder="账号"/>
+<input type="password" placeholder="密码" />
+<input type="submit" value="登录"/>
+<input type="reset" value="取消" onClick="hiddent()"/>
+</form>
+</div>
+
+<div id="top">
+<ul>
+<li><a href="index.html">首页</a>&lt;&lt;&lt;</li>
+<li><a href="#t2">MUSIC</a>&lt;&lt;&lt;</li>
+<li><a href="#t3">商城</a>&lt;&lt;&lt;</li>
+<li onClick="login()"><a >登录</a>&lt;&lt;&lt;</li>
+<li style="float:right;"><span id="musicname"></span> <audio controls autoplay="true" id="music"></audio></li>
+</ul>
+</div>
+<div id="rightcontrol">
+<a href="#TOP">TOP</a>
+<a href="#t2">音乐</a>
+<a href="#t3">商城</a>
+<a onClick="free()">刷新</a>
+</div>
+<div id="control">
+<div class="tier">
+<div class="t" id="t">
+<div class="home">
+<div class="one_page">
+<!--<img src="img/t1bg.png" width="1300" height="600" />-->
+<a href="#t2"><div class="one_btn">立刻行动</div></a>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="tier" >
+<div class="t2" id="t2">
+<div class="home">
+<div class="two_page">
+<div class="two_nav">
+<ul>
+<li><a>热门推荐</a></li>
+<li onClick="listm('h')"><a  >华语</a></li>
+<li onClick="listm('y')"><a  >欧美</a></li>
+<li onClick="listm('c')"><a  >纯音</a></li>
+<li style="float:right; margin-right:10%;"><a>&gt;&gt;更多</a></li>
+<div style="clear:both;"></div>
+</ul>
+</div>
+<div id="h" class="ms">
+<ul>
+<li onClick="musicplay('h1',this)">牛奶咖啡 - 明天你好</li>
+<li onClick="musicplay('h2',this)">陈奕迅 - 梦想天空分外蓝</li>
+
+</ul>
+</div>
+<div id="y" class="ms">
+<ul>
+<li onClick="musicplay('y1',this)">DAOKO - Forever Friends</li>
+<li onClick="musicplay('y2',this)">Vivienne - Innocent World</li>
+<li onClick="musicplay('y3',this)">洛萱 - 末路之徒-TV,ver</li>
+</ul>
+</div>
+<div id="c" class="ms">
+<ul>
+<li onClick="musicplay('c1',this)">牛尾憲輔 - lvs</li>
+<li onClick="musicplay('c2',this)">遠藤幹雄 - Kiss Of Death</li>
+
+</ul>
+</div>
+</div>
+<div class="gg">
+<div class="gg_title">公告
+<p style="margin-top:25px; font-size:12px; line-height:30px; color:#333; width:200px;">好看不
+
+</p>
+</div>
+
+</div>
+<div style="clear:both;"></div>
+
+</div>
+</div>
+</div>
+<div class="tier">
+<div class="t3" id="t3">
+<div class="home" >
+<div class="three_page">
+<div class="img">
+<div class="left_ic" onClick="ctbgl()">&lt;</div>
+<div class="right_ic" onClick="ctbgr()">&gt;</div>
+</div>
+<div class="buynav">
+<ul>
+<a href="shop.html"><li class="one"><span>数码影音</span></li></a>
+<a href="shop.html"><li class="two"><span>IP周边</span></li></a>
+<a href="shop.html"><li class="three"><span>热销爆品</span></li></a>
+<a href="shop.html"><li class="four"><span>积分商城</span></li></a>
+<li style="clear:both;"></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+
+<script type="text/javascript"  src="js/jdetail.js"></script>
+</html>
